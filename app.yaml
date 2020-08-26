@@ -6,7 +6,7 @@ api_version: 1
 handlers:
 
 - url: /
-  script: index.php
+  script: index.html
 
 - url: /(.+\.(gif|png|jpg|jpeg|ico|css|js))$
   static_files: \1
